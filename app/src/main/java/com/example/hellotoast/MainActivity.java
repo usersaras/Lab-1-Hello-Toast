@@ -31,10 +31,4 @@ public class MainActivity extends AppCompatActivity {
         if (mShowCount != null)
             mShowCount.setText(Integer.toString(mCount));
     }
-
-
-    public void btnReset(View view) {
-        mCount=0;
-        mShowCount.setText("0");
-    }
 }
